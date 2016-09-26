@@ -1,0 +1,8 @@
+[template]
+src = "config.js.tmpl"
+dest = "dist/lib/config.js"
+keys = [
+    "aws_service_ipranges_endpoint",
+    "use_ipv6",
+    "vpc_id"
+]

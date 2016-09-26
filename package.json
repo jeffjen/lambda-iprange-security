@@ -1,0 +1,26 @@
+{
+  "name": "lambda-iprange-security",
+  "version": "0.0.1",
+  "description": "Fetch AWS published service endpoints to security group",
+  "main": "lambda.js",
+  "scripts": {
+    "bundle": "gulp bundle"
+  },
+  "author": "Jeffrey Jen <yihungjen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.3.17",
+    "bluebird": "^3.4.6",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-awslambda": "^0.4.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-zip": "^3.2.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

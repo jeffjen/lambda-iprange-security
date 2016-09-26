@@ -1,0 +1,7 @@
+"use strict"
+
+module.exports = {
+    iprangesUri: "{{ getv "/aws_service_ipranges_endpoint" }}",
+    useIpv6: {{ getv "/use_ipv6" }},
+    vpcId: "{{ getv "/vpc_id" }}"
+};
